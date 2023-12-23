@@ -1,0 +1,27 @@
+UC06: Génération de la page HTML
+
+Description : L'auteur souhaite générer la page HTML de son livre.
+
+Acteur: Auteur
+
+Préconditions: Le livre est chargé
+
+Séquence nominal :
+
+1. L'auteur clique sur la section générer la page HTML de son livre.
+2. Le systeme lui previsualise la page html
+3. Le systeme demande la confirmation.
+4. L'auteur valide la génération de l'HTML du livre.
+5. Le systeme génère l'HTML du livre.
+6. Le systeme donne un fichier du HTML du livre a l'auteur.
+7. Le systeme retourne au menu principal.
+
+Enchaînements alternatifs :
+
+Enchaînement d'execption :
+
+E1 :(SN3) L'auteur refuse de générer l'HTML de ce livre.
+
+Post-conditions
+
+Le Systeme a généré l'HTML du livre.

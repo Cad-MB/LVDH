@@ -1,0 +1,17 @@
+Titre :
+Suppression d'un enchainement par l'auteur pour un livre - Cas nominal  | Id: TV26
+
+Contexe:
+Le livre est charge dans le systeme et l'enchainement existe.
+
+Entrie:
+Livre "Guerre et Paix", section "S1" et section "S2".
+
+Scinario:
+1. L'auteur choisit de supprimer un enchainement entre les sections "S1" et "S2" pour le livre "Guerre et Paix".
+
+Risultat attendu:
+Le systeme affiche une confirmation de suppression, le graphe des sections et enchainements est mis a jour.
+
+Moyens de virification:
+Visuel pour la confirmation de suppression, generer un jeu de pages HTML (cf. TV21) pour le livre "Guerre et Paix" et voir qu'il n'est pas possible de visiter avec le navigateur web la section "S2" depuis la section "S1".

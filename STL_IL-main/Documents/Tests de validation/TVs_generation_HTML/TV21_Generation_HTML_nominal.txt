@@ -1,0 +1,18 @@
+Titre : Generation de l'HTML | id: TV21
+
+Contexte :
+L'auteur est sur le menu principal de l'application, il clique sur "Generer HTML"
+
+Entree :
+Nom du livre "Mon premier livre"
+
+Scenario :
+1. L'auteur clique depuis le menu principal sur "Generer HTML".
+2. Il selectionne le livre dont il veut generer l'HTML, ici "Mon premier livre"
+3. Il confirme la Generation de son nouveau livre en cliquant sur "Confirmer"
+
+Resultat attendu :
+Le systeme affiche un message concernant la generation de l'HTML. Le systeme a genere l'HTML.
+
+Moyens de verification :
+Visuel pour la confirmation, l'auteur a recu le Fichier.HTML de son livre.

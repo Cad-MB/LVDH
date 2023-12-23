@@ -1,0 +1,18 @@
+Titre:
+Definir un nouvel enchainement par l'auteur pour un livre - Cas d'exception saisie d'une seule section pour l'enchainement | Id: TV014
+
+Contexe:
+Le livre "Mon Premier livre" est charge dans le systeme (cf. TV01), la section "S1" a ete creee (cf.TV08).
+
+Entree:
+Livre "Mon Premier livre", section "S1".
+
+Scenario:
+1. L'auteur choisit de definir une enchainement avec une seule section "S1".
+
+
+Resultat attendu:
+Le systeme affiche un message d'erreur, le graphe des sections et enchainements n'a pas ete mis a jour.
+
+Moyens de verification:
+Visuel pour l’affichage de l’erreur, regarder l'analyseur de graphe et verifier que rien n’a ete change.

@@ -1,0 +1,18 @@
+Titre : Generation de l'imprimable | id: TV18
+
+Contexte :
+L'auteur est sur le menu principal de l'application, il clique sur "Generer l'imprimable"
+
+Entree :
+Nom du livre "Mon second livre"
+
+Scenario :
+1. L'auteur clique depuis le menu principal sur "Generer l'imprimable".
+2. Il selectionne le livre dont il veut generer l'imprimable, ici "Mon premier livre"
+3. Il confirme la generation de l'imprimable de son nouveau livre en cliquant sur "Confirmer"
+
+Resultat attendu :
+Le systeme affiche un message concernant la generation de l'imprimable. Le systeme a genere l'imprimable.
+
+Moyens de verification :
+Visuel pour la confirmation, l'auteur a reçu l'imprimable de son livre.

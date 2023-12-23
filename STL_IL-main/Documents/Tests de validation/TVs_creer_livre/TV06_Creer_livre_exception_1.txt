@@ -1,0 +1,18 @@
+Titre : annulation de la creation d'un livre TV06
+
+Contexte :
+L'auteur est sur la demande de confirmation du nouveau livre, il clique sur "Annuler"
+
+Entree :
+Nom du livre "Mon second livre"
+
+Scenario :
+1. L'auteur clique depuis le menu principal sur "creer un nouveau livre".
+2. Il clique sur le cadran lui permettant d'ecrire le titre de son livre et tape "Mon second livre".
+3. Il annule la creation de son nouveau livre en cliquant sur "Annuler"
+
+Resultat attendu :
+Le systeme retourne au Menu principal
+
+Moyens de verification :
+Visuel pour la confirmation, l'auteur est de nouveau sur l'interface graphique du menu principale.

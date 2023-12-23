@@ -1,0 +1,18 @@
+Titre :
+Suppression d'un enchainement par l'auteur pour un livre - Cas exception annulation par l'auteur  | Id: TV27
+
+Contexe:
+Le livre est charge dans le systeme et l'enchainement existe.
+
+Entrie:
+Livre "Guerre et Paix", section "S1" et section "S2".
+
+Scinario:
+1. L'auteur choisit de supprimer un enchainement entre les sections "S1" et "S2" pour le livre "Guerre et Paix".
+2. L'auteur annule la suppression.
+
+Risultat attendu:
+Le systeme retourne au Menu principal
+
+Moyens de virification:
+Visuel pour la confirmation de suppression, generer un jeu de pages HTML (cf. TV21) pour le livre "Guerre et Paix" et voir qu'il est toujours possible de visiter avec le navigateur web la section "S2" depuis la section "S1".

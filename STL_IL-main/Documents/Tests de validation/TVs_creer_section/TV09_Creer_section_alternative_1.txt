@@ -1,0 +1,15 @@
+Titre: Cas de creation de section avec ajout d'objet |	id: TV09
+
+Contexte: Livre est cree
+
+Entree: -Texte de section : "Ceci est un test de creation de section avec objet".
+		-Nom d'objet "pomme".
+
+Scenario:
+1. L'auteur clique depuis le menu principal sur "Creer une section".
+2. Il tappe le texte de section.
+3. Il ajoute l'objet nomme "pomme".
+
+Resultat attendu: La section existe dans le livre et possede un objet.
+
+Moyen de verification: Regarder le graphe et verifier la presence de la section contenant le texte "Ceci est un test de creation de section avec objet" avec l'objet nomme "pomme".

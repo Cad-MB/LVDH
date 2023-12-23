@@ -1,0 +1,18 @@
+Titre : annulation de la génération de l'HTML(graphe non valide) | id: TV23
+
+Contexte :
+L'auteur est sur la demande de confirmation de la génération de l'HTML - Cas d'exception le graphe n'est pas valide
+
+Entrée :
+Nom du livre "Mon second livre"
+
+Scénario :
+1. L'auteur clique depuis le menu principal sur "Génération de l'HTML".
+2. Il selectionne le livre dont il veut générer l'HTML, ici "Mon premier livre" mais le graphe n'est pas valide
+
+
+Résultat attendu :
+Le système retourne au Menu principal
+
+Moyens de vérification :
+Visuel pour la confirmation, l'auteur reçoit un message d'erreur.

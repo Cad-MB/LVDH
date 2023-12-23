@@ -1,0 +1,15 @@
+Titre:  Creation de section - Cas exception annulation| id: TV10
+
+Contexte: Livre est cree
+
+Entree: -Texte de section : "Ceci est un test de creation de section mais avec annulation"
+
+Scenario:
+1. L'auteur clique depuis le menu principal sur "Creer une section".
+2. Il tappe le texte de section.
+3. Il refuse d'ajouter des objets.
+4. Il annule la creation de la section.
+
+Resultat attendu: Retour au menu.
+
+Moyen de verification: Regarder le graphe et verifier qu'aucun changement n a eu lieu.

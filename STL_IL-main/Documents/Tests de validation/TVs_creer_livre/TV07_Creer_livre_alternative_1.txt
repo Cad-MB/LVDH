@@ -1,0 +1,18 @@
+Titre : 	Creation d'un Nouveau livre avec un nom deja existant		id TV07
+
+Contexte :
+L'auteur est sur le menu principal de l'application, il clique sur "creer un nouveau livre"
+
+Entree :
+Nom du livre "Mon premier livre"
+
+Scenario :
+1. L'auteur clique depuis le menu principal sur "creer un nouveau livre".
+2. Il clique sur le cadran lui permettant d'ecrire le titre de son livre et tape "Mon second livre".
+3. Il confirme la creation de son nouveau livre en cliquant sur "Confirmer."
+
+Resultat attendu :
+Le systeme affiche un message concernant la creation du nouveau livre. Le systeme cree son nouveau livre en rajouter un indice pour differencier les deux livres.
+
+Moyens de verification :
+Visuel pour la confirmation, l'auteur clique sur "Charger un livre" depuis le menu principale, et peut voir/charger "Mon premier livre II" ( le nouveau livre fraîchement cree suivi de "II" )

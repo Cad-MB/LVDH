@@ -1,0 +1,29 @@
+UC03: Construire une section
+Description: Construire une section.
+Acteurs: Auteur du livre
+Préconditions: Le livre est chargé.
+
+Scénario Nominal:
+    1. L'auteur choisit de créer une nouvelle section.
+    2. Le système affiche à l'auteur une zone de saisie de texte.
+    3. L'auteur saisit le texte de la section à ajouter.
+    4. Le système demande à l’auteur s'il souhaite ajouter un objet dans cette section.
+    5. L'auteur ne choisit pas d'ajouter un objet.
+    6. Le système demande la confirmation de création de section.
+    7. L'auteur confirme.
+    8. Le système crée la nouvelle section avec le texte entré et les éventuels objets.
+    9. La section est ajoutée au livre.
+
+Postconditions:
+Le système a créé une section, éventuellement des objets dans cette section et les a ajoutés au livre.
+
+Alternatives:
+  A1: L’auteur indique qu'il souhaite ajouter un objet.
+    L'enchaînement démarre après le point SN5.
+    A1.1 Le système demande de donner le nom de l'objet.
+    A1.2 Le système ajoute l'objet et retourne au point SN5 du scénario nominal.
+
+Exceptions:
+  E1: L'auteur annule la création d’une section.
+    L'enchaînement démarre après le point SN5.
+    Le système affiche que l'auteur a annulé la création d’une nouvelle section et confirme qu'aucune section n'a été créée.

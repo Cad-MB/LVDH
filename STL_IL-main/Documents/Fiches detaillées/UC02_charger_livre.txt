@@ -1,0 +1,30 @@
+UC02 : Charger un livre           
+      
+Date 03/10/2022
+
+Responsables : Fazazi Zeid et Abdelkader Boumessaoud
+
+Description : L’utilisateur choisit de charger un livre pour l’afficher et l’éditer sur LDVH
+
+Acteur: Auteur
+
+Préconditions: 
+
+Scénario Nominal :
+	SN1 : L’auteur clique sur “Charger un livre”
+	SN2 : Le système ouvre une interface de sélection de fichiers 
+	SN3 : L’auteur sélectionne un livre
+	SN4 : Le système demande la confirmation de l'auteur
+	SN5 : L'auteur confirme
+	SN6 : Le système interprètele fichier en un livre
+	SN7 : Le système affiche le livre sur l’interface
+
+Post-conditions : 
+	Fichier chargé sur LVDH
+
+Scénario alternatif :
+	SA1 :(SN4) L'auteur ne confirme pas (SN2)
+
+Exceptions:
+	E1 :(SN3) l'auteur décide de quitter l'inteface
+  	E2 :(SN3) le format du livre est non-compatible

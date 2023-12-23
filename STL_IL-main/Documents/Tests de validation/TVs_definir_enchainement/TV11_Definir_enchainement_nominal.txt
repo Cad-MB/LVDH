@@ -1,0 +1,18 @@
+Titre :
+Definir un nouvel enchaînement par l'auteur pour un livre - Cas nominal  | Id: TV011
+
+Contexe:
+Le livre "Mon Premier livre" est charge dans le systeme (cf. TV01), la section "S1" avec l'objet "epee" a ete creee (cf.TV08bis) et la section "S2" a ete creee.
+
+Entree:
+Livre "Mon Premier livre", section "S1" avec l'objet "Epee", section "S2", description de l'enchaînement "Il ouvre la porte".
+
+Scenario:
+1. L'auteur choisit de definir un enchaînement depuis la section "S1" vers la section "S2", avec comme descrption "Il ouvre la porte" pour le livre "Mon Premier livre".
+2. L'auteur choisit l'objet "epee" comme condition d'enchaînement parmi les objets affiches.
+
+Resultat attendu:
+Le systeme affiche une confirmation, le graphe des sections et enchaînements est mis a jour.
+
+Moyens de verification:
+Visuel pour la confirmation, regarder l'analyseur de graphe et verifier que l'enchainement depuis la section "S1" vers la section "S2" avec la descrption "Il ouvre la porte" pour le livre "Mon Premier livre" existe.

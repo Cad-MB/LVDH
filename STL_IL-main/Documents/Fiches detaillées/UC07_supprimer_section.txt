@@ -1,0 +1,18 @@
+UC07: Supprimer une section
+Description: Permet à l'auteur de supprimer une section
+Acteurs: Auteur du livre
+Préconditions: Le livre est chargé et la section existe.
+Scénario Nominal:
+1. L'auteur choisit de supprimer une section.
+2. Le système recherche tout les enchaînements reliés à cette section.
+3. Le système demande la confirmation de suppression de la section ainsi que des enchaînements liés.
+4. L'auteur confirme.
+5. Le système supprime la section et les enchaînements liés.
+Postconditions:
+Le système a supprimer la section, et les éventuels enchaînements liés à cette dernière.
+
+Alternatives:
+
+Exceptions:
+E1: (SN3) L'auteur annule la suppression d’une section.
+Le système affiche que l'auteur a annulé la suppression d’une section et confirme que rien n'a été supprimer.

@@ -1,0 +1,19 @@
+
+Titre:
+Definir un nouvel enchaînement par l'auteur pour un livre - Cas alternatif sans objet pour la condition  | Id: TV012
+
+Contexe:
+Le livre "Mon Premier livre" est charge dans le systeme (cf. TV01), la section "S1" avec l'objet "epee" a ete creee (cf.TV08bis?) et la section "S2" a ete creee.
+
+Entree:
+Livre "Mon Premier livre", section "S1", section "S2", description de l'enchaînement "Il ouvre la porte sans objet".
+
+Scenario:
+1. L'auteur choisit de definir un enchaînement depuis la section "S1" vers la section "S2", avec comme description "Il ouvre la porte sans objet"" pour le livre "Mon Premier livre".
+2. L'auteur ne choisit pas d'objet parmi les objets affiches.
+
+Resultat attendu:
+Le systeme affiche une confirmation, le graphe des sections et enchaînements est mis a jour.
+
+Moyens de verification:
+Visuel pour la confirmation, regarder l'analyseur de graphe et verifier que l'enchaînement depuis la section “S1” vers la section “S2” existe bien sans l'objet.

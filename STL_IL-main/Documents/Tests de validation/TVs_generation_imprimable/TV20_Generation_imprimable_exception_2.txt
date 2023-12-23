@@ -1,0 +1,17 @@
+Titre : annulation de la generation de l'imprimable (Graphe Non valide) | id: TV20
+
+Contexte :
+L'auteur est sur le menu principal de l'application, il clique sur "Generer l'imprimable"  - Cas d'exception le graphe n'est pas valide
+
+Entree :
+Nom du livre "Mon second livre"
+
+Scenario :
+1. L'auteur clique depuis le menu principal sur "Generation de l'imprimable".
+2. Il selectionne le livre dont il veut generer l'imprimable, ici "Mon premier livre" mais le graphe n'est pas valide
+
+Resultat attendu :
+Le systeme retourne au Menu principal
+
+Moyens de verification :
+Visuel pour la confirmation, l'auteur recois un message d'erreur

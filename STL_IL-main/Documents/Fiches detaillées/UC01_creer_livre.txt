@@ -1,0 +1,36 @@
+UC01 : Créer un nouveau livre 
+
+Date 03/10/2022
+
+Responsables : Cherfi Farouck & Olando Bazil 
+
+Description : L'auteur souhaite créer un nouveau livre.
+
+Acteur: Auteur
+
+Préconditions : 
+
+Séquence nominale : 
+
+1. L'auteur clique sur la section créer un nouveau livre.
+2. Le système lui affiche une page pour le nom de ce nouveau livre.
+3. L'auteur écrit le titre de ce nouveau livre. 
+4. Le système vérifie le nom du livre.
+5. Le système affiche un message de demande de confirmation du livre.
+6. L'auteur confirme la création du livre.
+7. Le système crée le livre.
+8. Affichage de l'interface graphique.
+
+Enchaînements alternatifs :
+
+A1 :(SN4) Doublon du nom du livre, Le système ajoute un numéro au titre (SN5)
+
+Enchaînement d'exception :
+
+E1 :(SN5) L'auteur refuse de créer ce livre, retour au menu principal.
+
+Post-conditions
+
+Le système a enregistré les informations suivantes :
+.  Nom du livre.
+.  Le livre.

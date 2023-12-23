@@ -1,0 +1,18 @@
+Titre:
+Definir un nouvel enchaînement par l'auteur pour un livre - Cas d'exception avec annulation lors du choix des objets pour la condition | Id: TV013
+
+Contexe:
+Le livre "Mon Premier livre" est charge dans le systeme (cf. TV01), la section "S1" avec l'objet "epee" a ete creee (cf.TV08) et la section "S2" a ete creee.
+
+Entree:
+Livre "Mon Premier livre", section "S1", section "S2", description de l'enchaînement "Il ouvre la porte".
+
+Scenario:
+1. L'auteur choisit de definir un enchaînement depuis la section "S1" vers la section "S2", avec comme description "Il ouvre la porte" pour le livre "Mon Premier livre".
+2. L'auteur choisit d'annuler le nouvel enchaînement.
+
+Resultat attendu:
+Le systeme affiche une confirmation d'annulation, le graphe des sections et enchaînements n'a pas ete mis a jour.
+
+Moyens de verification:
+Visuel pour la confirmation, regarder l'analyseur de graphe et verifier qu’il n’existe pas de enchaînement depuis la section “S1” vers la section “S2”.

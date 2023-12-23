@@ -1,0 +1,20 @@
+Titre :
+Suppression d'une section dans le livre - Cas nominal  | Id: TV24
+
+Contexe:
+Le livre est charge dans le systeme et la section existe et est reliee a l enchainement E1.
+
+Entree:
+Livre "Guerre et Paix", section "S1"
+
+Scenario:
+1. L'auteur choisit de supprimer la section "S1" pour le livre "Guerre et Paix".
+2. Le systeme affiche que l enchainement "E1" sera aussi supprimer.
+3. Le systeme affiche une demande de confirmation
+
+
+Resultat attendu:
+Le systeme affiche une confirmation de suppression, le graphe des sections et enchainements est mis a jour.
+
+Moyens de verification:
+Visuel pour la confirmation de suppression, generer un jeu de pages HTML (cf. TV21) pour le livre "Guerre et Paix" et voir que la section "S1" et l'enchainement "E1" n existe plus.

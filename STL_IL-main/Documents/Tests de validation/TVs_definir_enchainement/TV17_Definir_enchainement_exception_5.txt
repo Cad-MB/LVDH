@@ -1,0 +1,18 @@
+Titre:
+Definir un nouvel enchainement par l'auteur pour un livre - Cas d'exception saisie d'un enchainement existant | Id: TV17
+
+Contexe:
+Le livre "Mon Premier livre" est charge dans le systeme (cf. TV01), la section "S1" avec l'objet "epee" à ete creee (cf.TV08) et la section "S2" à ete creee, un enchainement existe entre S1 et S2 (cf. TV010).
+
+Entree:
+Livre "Mon Premier livre", section "S1" et section "S2".
+
+Scenario:
+1. L'auteur choisit de definir un enchainement entre les sections "S1" et "S2" pour le livre "Mon Premier livre".
+
+
+Resultat attendu:
+Le systeme affiche un message d'erreur, le graphe des sections et enchainements n'a pas ete mis à jour.
+
+Moyens de verification:
+Visuel pour l’affichage de l’erreur, regarder l'analyseur de graphe et verifier que rien n’a ete change.

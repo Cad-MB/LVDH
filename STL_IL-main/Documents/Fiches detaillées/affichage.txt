@@ -1,0 +1,16 @@
+Titre : Affichage 
+
+Description : L'auteur souhaite générer la page HTML de son livre.
+
+Acteur : Auteur
+
+Préconditions : Le livre doit exister
+
+Séquence nominale :
+
+SN1. Une mise a jour est effectuée concernant le livre
+SN2. Le système modifie l'interface graphique en conséquence
+
+Post-Conditions
+
+Le système a modifié l'interface graphique

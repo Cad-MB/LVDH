@@ -1,0 +1,31 @@
+UC04: Definir un nouvel enchainement
+Description: Permet a l'auteur de definir un nouvel enchainement entre les sections d'un livre.
+Acteurs: Auteur du livre
+Preconditions: Le livre est charge.
+
+Scenario Nominal:
+  1. L'auteur choisit de creer un nouvel enchainement.
+  2. Le systeme affiche la liste des sections.
+  3. L'auteur choisit la section de depart, la section d'arrivee et la description de l'enchainement.
+  4. Le systeme analyse le graphe.
+  5. Le systeme affiche les objets pour la condition.
+  6. L'auteur choisit les objets pour la condition.
+  7. Le systeme met a  jour le graphe.
+  8. Le systeme affiche une confirmation qu'un nouvel enchainement a ete cree.
+
+Postconditions: Le nouvel enchainement est cree et le graphe est mis a jour.
+
+Alternatives:
+  A1: L'auteur a choisi de ne pas ajouter d'objets pour la condition.
+    L'enchainement demarre apres le point SN5.
+Le scenario nominal reprend au point SN7.
+
+Exceptions:
+  E1: L'auteur annule l'ajout d'un nouvel enchainement.
+    L'enchainement demarre apres le point SN5.
+    Le systeme affiche que l'auteur a annule la definition d'un nouvel enchainement et confirme qu'aucun enchainement n'a ete cree.
+
+  E2: L'auteur a choisi des mauvaises sections (e.g: la meme deux fois, deja  un enchainement present, une seule section)
+    L'enchainement demarre apres le point SN4.
+    Le systeme affiche que l'auteur a mal saisi les sections (selon le cas d'erreur) et confirme quâ€™aucun enchainement n'a ete cree.
+

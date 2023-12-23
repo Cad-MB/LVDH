@@ -1,0 +1,14 @@
+Titre: Cas nominal de creation de section 	| id: TV08
+
+Contexte: Livre est cree
+
+Entree: -Texte de section : "Ceci est un test de creation de section"
+
+Scenario:
+1. L'auteur clique depuis le menu principal sur "Creer une section".
+2. Il tappe le texte de section.
+3. Il refuse d'ajouter des objets.
+
+Resultat attendu: La section existe dans le livre.
+
+Moyen de verification: Regarder le graphe et verifier la presence de la section contenant le texte "Ceci est un test de creation de section"

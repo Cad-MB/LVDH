@@ -1,0 +1,18 @@
+UC08: Supprimer enchaînement
+Description: Permet à l’auteur de supprimer un enchaînement entre les sections d'un livre.
+Acteurs: Auteur
+
+Préconditions: Le livre est chargé et l'enchaînement existe.
+
+Scénario Nominal:
+    1. L'auteur choisit de supprimer un enchaînement.
+    2. Le système met à jour le graphe sans l'enchaînement supprimé
+    3. Le système confirme la suppression de l'enchaînement.
+
+Postconditions: L'enchaînement est supprimé et le graphe est mis à jour.
+
+Alternatives:
+Aucune
+
+Exceptions:
+Aucune

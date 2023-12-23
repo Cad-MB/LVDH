@@ -1,0 +1,25 @@
+UC05 : Générer imprimable 
+
+Description : L'auteur souhaite générer l'imprimable de son livre.
+
+Acteur: Auteur
+
+Préconditions: Le livre dois être créer
+
+Séquence nominale :
+
+1. L'auteur clique sur la section générer l'imprimable.
+2. Le système lui montre les pages sous format pdf et lui demande de confirmer sa génération.
+3. L'auteur valide la génération du livre.
+4. Le système génère l'imprimable du livre.
+5. Le système retourne au menu principal.
+
+Enchaînements alternatifs :
+
+Enchaînement d'execption :
+
+E1 :(SN2) L'auteur refuse de générer l'imprimable de ce livre. 
+
+Post-conditions
+
+Le système a généré l'imprimable du livre.
