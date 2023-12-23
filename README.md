@@ -2,5 +2,3 @@ Spécification et implémentation d'un logiciel d’aide à la création de livr
 
 - Gestionnaire de versions de code : Github, Gitlab.
 - Outil UML : IBM RSAD (Rational Software Architect Designer).
-
-Noté : 12 / 20
